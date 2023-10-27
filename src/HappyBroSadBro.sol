@@ -20,7 +20,7 @@ contract HappyBroSadBro is ERC721, Ownable, IERC4883 {
 
     constructor(
         address initialOwner
-    ) ERC721("EmotionNFT", "EMO") Ownable(initialOwner) {}
+    ) ERC721("HappyBroSadBro", "HBSB") Ownable(initialOwner) {}
 
     function supportsInterface(
         bytes4 interfaceId
